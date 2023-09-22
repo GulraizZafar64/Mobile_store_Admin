@@ -1,0 +1,37 @@
+.phoneCard{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.phoneImageconainer{
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+}
+.phoneImageconainer>img{
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+}
+.contentofphone{
+    padding: 5px;
+}
+.deleteButton>button{
+    width: 100%;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 5px 0px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+.editVutton>button{
+    width: 100%;
+    border: none;
+    background-color: rgba(21, 255, 0, 0.884);
+    color: white;
+    padding: 5px 0px;
+    border-radius: 10px;
+}

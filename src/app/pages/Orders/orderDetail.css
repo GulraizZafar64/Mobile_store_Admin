@@ -1,0 +1,184 @@
+*{
+    padding: 0px ;
+    margin: 0px;
+}
+.view-detail{
+    display: flex;
+}
+.client-id{
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+.client-detail{
+    font: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#row-1{
+   position:relative;
+   bottom: 10px;
+}
+#row-2{
+    position: relative;
+    bottom: 60px;
+}
+#row-3{
+    position: relative;
+    bottom: 18vh;
+}
+#row-4{
+    position: relative;
+    bottom: 25vh;
+}
+#row-5{
+    position: relative;
+    bottom: 32vh;
+}
+#row-6{
+    position: relative;
+    bottom: 32vh;
+}
+#row-7{
+    position: relative;
+    bottom: 44vh;
+}
+#row-8{
+    position: relative;
+    bottom: 45vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px ;
+    border: none;
+   
+}
+#row-9{
+    position: relative;
+    bottom: 40vh;
+}
+
+
+
+.order-id{
+    display: flex;
+    flex-direction: inherit;
+    justify-content: space-between;
+    padding: 0rem 4rem !important;
+}
+.btn-text{
+    padding: 15px 25px;
+    margin-top: 15px;
+    padding: auto;
+}
+.desc{
+    padding-left: 0!important;
+}
+.deliver-lable{
+    font-size: 1.3rem !important;
+    font-weight: 500 !important;
+}
+.order-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+.offer{
+    
+    padding: 1rem;
+}
+.offer-id{
+    display: flex;
+    justify-content: space-between;
+}
+.count{
+    display: flex;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+.revision-msg{
+    flex-wrap: wrap !important;
+}
+.revision-file{
+    flex-wrap: wrap !important;
+}
+.user-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.user-id{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.icon_style{
+    margin-top: -10px;
+    margin-left: 5%;
+}
+.showimage{
+    margin-top: 22px !important;
+}
+.rolequie{
+    position: relative;
+    right: 16px;
+}
+@media screen and (max-width: 1300px) {
+
+   .userCardquri{
+    min-width: 270px;
+   }
+   .rolequie{
+   position: relative;
+   right: 16px;
+   }
+  }
+  .status-card{
+    background-color: #ffffff;
+    margin-top: 20px;
+    height: 116px;
+  }
+  .headingstatus{
+    height: 40px;
+    background-color: black;
+    width: 100%!important;
+    margin-right: 40px!important;
+  }
+  .headingstatus>h4{
+    color: white;
+    position: relative;
+    left: 14px;
+    top: 8px;
+  }
+  .updatestatusmain{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .updatestatusmain>select{
+    padding: 0.5rem;
+    margin-left: 10px;
+    border-radius: 4px;
+    width: 202px!important;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #fff;
+    color: rgb(131, 131, 131)!important;
+    outline: none;
+    border:1px solid #b1b0b0!important;
+  }
+  .updateStatusButton{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+    width: 100px;
+    height: 38px;
+    margin-left: 5px;
+  }
